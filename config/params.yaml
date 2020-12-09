@@ -1,0 +1,12 @@
+parameters:
+
+  localeCache.defaultLifetime: 30
+  localeCache.limitEntityAmount: 100
+
+  logger.host:        'logstash'
+  logger.port:        5000
+  logger.filePath:    '%kernel.project_dir%/var/log/'
+  logger.levelLimit:  'warning'
+
+  clientConnectionTimeout: 10 # timeout for sending packets throw protocols
+  useRandomResponseQueue: true
