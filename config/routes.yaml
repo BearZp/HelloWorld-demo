@@ -4,6 +4,15 @@ index:
 push:
     path: /push
     controller: App\Controller\PushController::handle
+
 post:
     path: /post
     controller: App\Controller\PostController::handle
+
+httppost:
+    path: /httppost
+    controller: App\Controller\HttpPostController::handle
+
+httpPush:
+    path: /httpPush
+    controller: App\Controller\HttpPushController::handle

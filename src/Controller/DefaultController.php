@@ -20,6 +20,6 @@ class DefaultController
      */
     public function index(Request $request)
     {
-        return new Response('Use /push or /post');
+        return new Response('Use /push or /post or /httpPush or /httpPost');
     }
 }
